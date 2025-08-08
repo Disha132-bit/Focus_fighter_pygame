@@ -1,0 +1,168 @@
+P1 (Solo): 260
+P1: 640, P2: 0
+P1: 140, P2: 0
+P1: 40, P2: 70
+P1 (Solo): 50
+P1: 20, P2: 0
+P1 (Solo): 220
+P1 (Solo): 290
+P1: 320, P2: 150
+P1 (Solo): 180
+P1: 110, P2: 260
+P1: 0, P2: 290
+P1: 100, P2: 410
+P1: 40, P2: 0
+P1 (Solo): 470
+P1 (Solo): 640
+P1 (Solo): 40
+P1 (Solo): 80
+P1 (Solo): 10
+P1 (Solo): 1130
+P1 (Solo): 900
+P1 (Solo): 330
+P1: 10, P2: 0
+P1 (Solo): 30
+P1 (Solo): 60
+P1 (Solo): 0
+P1 (Solo): 1790
+P1 (Solo): 170
+P1 (Solo): 360
+P1 (Solo): 880
+P1 (Solo): 20
+P1 (Solo): 850
+P1 (Solo): 420
+P1 (Solo): 0
+P1 (Solo): 0
+P1 (Solo): 0
+P1: 170, P2: 140
+P1 (Solo): 150
+P1 (Solo): 250
+P1 (Solo): 290
+P1 (Solo): 0
+P1 (Solo): 10
+P1 (Solo): 0
+P1: 0, P2: 0
+P1 (Solo): 70
+P1 (Solo): 10
+P1: 20, P2: 0
+P1: 10, P2: 0
+P1 (Solo): 50
+P1 (Solo): 80
+P1: 40, P2: 0
+P1 (Solo): 100
+P1 (Solo): 90
+P1 (Solo): 110
+P1: 80, P2: 10
+P1 (Solo): 30
+P1 (Solo): 100
+P1 (Solo): 260
+P1 (Solo): 110
+P1 (Solo): 0
+P1 (Solo): 30
+P1 (Solo): 120
+P1 (Solo): 50
+P1 (Solo): 120
+P1 (Solo): 150
+P1 (Solo): 130
+P1 (Solo): 80
+P1 (Solo): 80
+P1 (Solo): 80
+P1 (Solo): 500
+P1 (Solo): 40
+P1 (Solo): 150
+P1 (Solo): 220
+P1 (Solo): 150
+P1 (Solo): 20
+P1 (Solo): 180
+P1 (Solo): 280
+P1 (Solo): 20
+P1 (Solo): 20
+P1 (Solo): 280
+P1 (Solo): 170
+P1 (Solo): 180
+P1 (Solo): 160
+P1 (Solo): 150
+P1 (Solo): 40
+P1 (Solo): 0
+P1 (Solo): 120
+P1 (Solo): 90
+P1 (Solo): 50
+P1 (Solo): 100
+P1 (Solo): 190
+P1 (Solo): 10
+P1 (Solo): 60
+P1 (Solo): 90
+P1 (Solo): 100
+P1 (Solo): 400
+P1 (Solo): 60
+P1 (Solo): 40
+P1 (Solo): 30
+P1 (Solo): 90
+P1 (Solo): 140
+P1 (Solo): 180
+P1 (Solo): 340
+P1 (Solo): 120
+P1 (Solo): 140
+P1 (Solo): 90
+P1 (Solo): 270
+P1 (Solo): 130
+P1 (Solo): 50
+P1 (Solo): 1150
+P1 (Solo): 140
+P1 (Solo): 480
+P1 (Solo): 120
+P1 (Solo): 60
+P1 (Solo): 0
+P1 (Solo): 20
+P1 (Solo): 0
+P1 (Solo): 290
+P1 (Solo): 360
+P1 (Solo): 0
+P1 (Solo): 10
+P1 (Solo): 10
+P1 (Solo): 20
+P1 (Solo): 10
+P1 (Solo): 20
+P1 (Solo): 30
+P1 (Solo): 0
+P1 (Solo): 130
+P1 (Solo): 310
+P1 (Solo): 40
+P1 (Solo): 110
+P1 (Solo): 10
+P1 (Solo): 1110
+P1 (Solo): 10
+P1 (Solo): 650
+P1 (Solo): 20
+P1 (Solo): 190
+P1 (Solo): 250
+P1 (Solo): 320
+P1 (Solo): 580
+P1 (Solo): 360
+P1 (Solo): 50
+P1 (Solo): 30
+P1 (Solo): 10
+P1 (Solo): 260
+P1 (Solo): 700
+P1 (Solo): 10
+P1 (Solo): 0
+P1 (Solo): 610
+P1 (Solo): 160
+P1 (Solo): 60
+P1 (Solo): 240
+P1 (Solo): 240
+P1 (Solo): 20
+P1 (Solo): 110
+P1 (Solo): 160
+P1 (Solo): 100
+P1 (Solo): 850
+P1 (Solo): 30
+P1 (Solo): 0
+P1 (Solo): 150
+P1 (Solo): 60
+P1 (Solo): 420
+P1 (Solo): 430
+P1 (Solo): 340
+P1 (Solo): 300
+P1 (Solo): 30
+P1 (Solo): 0
