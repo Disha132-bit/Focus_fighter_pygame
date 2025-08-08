@@ -1,0 +1,51 @@
+# ======================
+# Python cache files
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ======================
+# Virtual environment folders
+# ======================
+venv/
+env/
+.venv/
+
+# ======================
+# Environment variables (if any)
+# ======================
+.env
+.env.*
+
+# ======================
+# IDE / Editor files
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Large media files
+# (We don't store gameplay videos here)
+# ======================
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.zip
+*.tar
+*.tar.gz
+
+# ======================
+# System files
+# ======================
+.DS_Store
+Thumbs.db
