@@ -52,7 +52,7 @@ python focus_fighter_enhanced.py
 
 ## 🚀 Clone this Repository
 <pre>
-  git clone https://github.com/Disha835/Focus_fighter_pygame.git
+  https://github.com/Disha132-bit/Focus_fighter_pygame.git
   cd Focus_fighter_pygame
 </pre>
 ---
@@ -81,4 +81,5 @@ python focus_fighter_enhanced.py
 ---
 
 ## ❤️ Made with Love using Python & Pygame
+
 
