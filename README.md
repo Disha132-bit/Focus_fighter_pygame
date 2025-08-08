@@ -56,6 +56,11 @@ pip install pygame
 python focus_fighter_enhanced.py
 ```
 
+## 🎬 Gameplay Demo
+<pre>
+  
+</pre>
+
 ## 🧠 Ideal For
 <pre>
   Students studying game development.
@@ -88,7 +93,3 @@ python focus_fighter_enhanced.py
 ---
 
 ## ❤️ Made with Love using Python & Pygame
-
-
-
-
