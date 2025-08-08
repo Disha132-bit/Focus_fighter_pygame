@@ -23,7 +23,7 @@ Focus Fighter is an engaging brain-training game developed using **Pygame**. The
 ---
 
 ## 📂 Project Structure
-
+<pre>
 FocusFighter/
 │
 ├── focus_fighter_enhanced.py
@@ -35,7 +35,7 @@ FocusFighter/
 ├── score_history
 ├── GameVideo        # How the game is played             
 └── README.md                        
-
+</pre>
 ---
 
 ## 📦 Install Dependencies
@@ -44,14 +44,17 @@ FocusFighter/
 pip install pygame
 ```
 
----
-
 ## ▶️ Run the Game
 
 ```bash
 python focus_fighter_enhanced.py
 ```
 
+## 🚀 Clone this Repository
+<pre>
+  git clone https://github.com/Disha835/Focus_fighter_pygame.git
+  cd Focus_fighter_pygame
+</pre>
 ---
 
 ## 🕹️ Controls
@@ -78,3 +81,4 @@ python focus_fighter_enhanced.py
 ---
 
 ## ❤️ Made with Love using Python & Pygame
+
