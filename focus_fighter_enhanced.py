@@ -13,9 +13,6 @@ screen = pygame.display.set_mode((1280, 720), pygame.RESIZABLE | pygame.SHOWN)
 WIDTH, HEIGHT = screen.get_size()
 pygame.display.set_caption("Focus Fighter")
 
-# temp_handle = ctypes.windll.kernel32.GetConsoleWindow()
-# ctypes.windll.user32.ShowWindow(temp_handle, 3)
-
 pygame.init()
 pygame.mixer.init()
 display_info = pygame.display.Info()
@@ -64,6 +61,16 @@ volume_level = 0.4
 is_muted = False
 enemy_fire_sound = pygame.mixer.Sound(os.path.join(sound_path, "enemy_fire.wav"))
 enemy_fire_sound.set_volume(volume_level)
+
+# --- collect all sound objects so we can set volumes in one place ---
+all_sounds = [
+    fire_sound,
+    enemy_kill_sound,
+    boss_defeated_sound,
+    powerup_sound,
+    gameover_sound,
+    enemy_fire_sound,
+]
 
 # ───── Boss & Enemy Types Setup ─────
 boss_types = [
@@ -138,7 +145,6 @@ is_multiplayer = False  # By default, single-player
 minus_rect = pygame.Rect(WIDTH - 160, HEIGHT - 60, 30, 30)
 plus_rect = pygame.Rect(WIDTH - 100, HEIGHT - 60, 30, 30)
 
-
 def load_high_score():
     return int(open(HIGH_SCORE_FILE).read()) if os.path.exists(HIGH_SCORE_FILE) else 0
 
@@ -146,17 +152,29 @@ def save_high_score(score):
     with open(HIGH_SCORE_FILE, "w") as f:
         f.write(str(score))
 
-def set_volume(vol):
+def apply_volume():
+    """Apply current volume_level or mute to music and all SFX."""
+    if is_muted:
+        pygame.mixer.music.set_volume(0)
+        for s in all_sounds:
+            s.set_volume(0)
+    else:
+        pygame.mixer.music.set_volume(volume_level)
+        for s in all_sounds:
+            s.set_volume(volume_level)
+
+def set_volume(vol=None):
+    """Set volume_level (0.0–1.0). Call without arg to re-apply current volume."""
     global volume_level
-    volume_level = max(0.0, min(vol, 1.0))
-    pygame.mixer.music.set_volume(0 if is_muted else volume_level)
-    for sound in [fire_sound, enemy_kill_sound, boss_defeated_sound, powerup_sound, gameover_sound]:
-        sound.set_volume(0 if is_muted else volume_level)
+    if vol is not None:
+        volume_level = max(0.0, min(vol, 1.0))
+    apply_volume()
 
 def toggle_mute():
+    """Toggle mute on/off and apply volumes."""
     global is_muted
     is_muted = not is_muted
-    set_volume(volume_level)
+    apply_volume()
 
 # show time attack duration to choose
 def show_time_attack_duration():
@@ -496,6 +514,8 @@ while running:
             elif event.key == pygame.K_b:
                 current_track_index = (current_track_index + 1) % len(music_tracks)
                 play_music(current_track_index)
+            elif event.key == pygame.K_m:
+                toggle_mute()
             elif event.key == pygame.K_PLUS or event.key == pygame.K_EQUALS:
                 set_volume(volume_level + 0.1)
             elif event.key == pygame.K_MINUS:
