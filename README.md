@@ -58,7 +58,7 @@ python focus_fighter_enhanced.py
 
 ## 🎬 Gameplay Demo
 <pre>
-  https://github.com/Disha132-bit/Focus_fighter_pygame/releases/tag/V1.0
+  https://github.com/Disha132-bit/Focus_fighter_pygame/releases
 </pre>
 
 ## 🧠 Ideal For
@@ -93,4 +93,5 @@ python focus_fighter_enhanced.py
 ---
 
 ## ❤️ Made with Love using Python & Pygame
+
 
